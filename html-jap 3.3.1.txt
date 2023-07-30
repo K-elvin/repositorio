@@ -1,0 +1,54 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenido a mi portfolio</h2>
+        <p>¡Hola! Soy Kelvin Siqueira y este es mi portfolio.</p>
+        <img src="foto-jap.jpg" alt="Mi foto">
+    </section>
+    
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos saepe ea blanditiis eveniet dolore eligendi sequi veritatis officia repellendus autem ratione officiis et expedita sint, maiores alias labore. Voluptates, laudantium.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis harum ducimus eos deserunt sunt sit incidunt dolores rem nobis in, deleniti praesentium vero culpa, omnis numquam placeat iure nihil reprehenderit.</p>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
